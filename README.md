@@ -1,6 +1,6 @@
 # WebproViewTool
 
-Gem updates views with date and copyright info
+> Gem updates views with date and copyright info
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+WebproViewTool::Renderer.copyright 'Ben Brooks', 'All rights reserved'
+```
 
 ## Development
 
